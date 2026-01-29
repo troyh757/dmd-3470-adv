@@ -245,3 +245,54 @@ textarea {
   }
 }
 
+header {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+  background-color: gainsboro;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#text-container {
+  width: 50%;
+  align-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 10px;
+  width: 33%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer {
+  display: flex;
+  padding: 40px;
+}
