@@ -296,3 +296,16 @@ footer {
   display: flex;
   padding: 40px;
 }
+
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    width: 100%;
+  }
+  #text-container {
+    width: 100%;
+  }
+}
