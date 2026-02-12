@@ -310,3 +310,12 @@ footer {
     width: 100%;
   }
 }
+
+#hero {
+  min-height: 100vh;
+  background-color: blue;
+}
+
+#features {
+  background-color: yellow;
+}
