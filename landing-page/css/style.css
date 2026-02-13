@@ -313,9 +313,88 @@ footer {
 
 #hero {
   min-height: 100vh;
-  background-color: blue;
+  background: #0d0d2f;
+  background: radial-gradient(
+    circle,
+    rgba(13, 13, 47, 1) 0%,
+    rgba(31, 15, 52, 1) 50%,
+    rgba(0, 28, 75, 1) 100%
+  );
+}
+
+#hero .row {
+  height: 1px;
+}
+
+#hero {
+  color: white;
+}
+
+#red-text {
+  color: #ca0026;
 }
 
 #features {
-  background-color: yellow;
+  background-color: white;
+}
+
+#featurestwo {
+  background-color: #ca0026;
+}
+
+#ready {
+  background-color: #000e2f;
+}
+
+#footer {
+  background-color: #1a1d29;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #f5f7fa;
+}
+
+#featurestwo h1,
+#featurestwo p {
+  color: white;
+}
+
+#featurestwo p {
+  font-size: 12px;
+}
+
+#footer {
+  color: white;
+  font-size: 10px;
+}
+
+.btn-white {
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 20px;
+  color: #000e2f;
+  background-color: white;
+  border: none;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#ready h1,
+#ready p {
+  color: white;
+}
+
+#features .card h3 {
+  color: #000e2f;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#features .card p {
+  color: #000e2f;
+  font-size: 12px;
 }
