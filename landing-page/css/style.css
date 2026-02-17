@@ -414,6 +414,9 @@ footer {
   border: none;
   padding: 12px 30px;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-white {
@@ -424,6 +427,23 @@ footer {
   background-color: rgba(255, 255, 255, 0.1);
   border: white solid 1px;
   padding: 12px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-white-hero {
+  border-radius: 30px;
+  height: 45px;
+  gap: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: white solid 1px;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 #card-container {
