@@ -1,12 +1,17 @@
 :root {
-  --box-color: rgba(132, 91, 142, 0.5);
-  --box-border-color: rgb(0, 0, 0);
+  --box-color: rgba(47, 57, 64, 0.85);
+  --box-border-color: #0b0b0d;
 }
 
 body {
   margin: 0;
-  background-image: url(images/istockphoto-1357491899-612x612.jpg);
-  background-size: cover;
+  background: #0b0b0d;
+  background: linear-gradient(
+    180deg,
+    rgba(11, 11, 13, 1) 0%,
+    rgb(34, 42, 48) 50%,
+    rgba(11, 11, 13, 1) 100%
+  );
 }
 
 .grid {
@@ -18,20 +23,21 @@ body {
 }
 
 h1 {
-  font-family: "PT Serif", serif;
-  font-weight: 900;
-  font-style: bold;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550 !important;
+  font-style: normal;
   font-size: 5rem;
-  color: black;
+  color: #91ccd9;
 }
 
 p {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 20px;
-  color: black;
+  color: #5a73bf;
 }
 
 li {
@@ -40,7 +46,7 @@ li {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  color: black;
+  color: #6b8df2;
 }
 
 h3 {
@@ -50,12 +56,11 @@ h3 {
   font-style: normal;
   font-size: 20px !important;
   font-variation-settings: "GRAD" 0;
-  color: black;
+  color: #6b8df2;
 }
 
 #herobox {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 1 / span 5;
   color: black;
   display: flex;
@@ -64,19 +69,20 @@ h3 {
   flex-direction: column;
   text-align: center;
   border-radius: 10px;
+  padding: 20px;
 }
 
 #herobox h1 {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
-  font-size: 5rem;
-  color: black;
+  font-size: 75px;
+  color: #91ccd9;
 }
 
 #box1 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 1 / span 3;
   padding: 20px;
   display: flex;
@@ -84,17 +90,18 @@ h3 {
   flex-direction: column;
   gap: 20px;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
 #box2 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 4 / span 2;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
 #box2 p {
@@ -108,7 +115,6 @@ h3 {
 
 #box3 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 3 / 6;
   padding: 20px;
   display: flex;
@@ -116,19 +122,19 @@ h3 {
   gap: 20px;
   justify-content: center;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
 #box4 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 1 / span 2;
   grid-row: 3 / span 2;
   padding: 20px;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #box5 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 3 / 6;
   padding: 20px;
   display: grid;
@@ -136,10 +142,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #box6 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 1 / span 5;
   padding: 20px;
   display: flex;
@@ -147,10 +153,10 @@ h3 {
   align-items: center;
   text-align: center;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #box7 {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 1 / 6;
   padding: 20px;
   display: flex;
@@ -158,6 +164,7 @@ h3 {
   align-items: center;
   text-align: center;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
 #gallery {
@@ -166,6 +173,7 @@ h3 {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
   overflow-x: hidden;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
 #img1 {
@@ -225,7 +233,6 @@ h3 {
 
 #howbox {
   background-color: var(--box-color);
-  border: 3px solid var(--box-border-color);
   grid-column: 1 / span 5;
   padding: 50px;
   display: flex;
@@ -235,20 +242,11 @@ h3 {
   text-align: center;
   gap: 20px;
   border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
 #howbox img {
   width: 100%;
   max-width: 500px;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-  #gallery {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
 }
