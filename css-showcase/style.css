@@ -1,13 +1,114 @@
+body {
+  margin: 0;
+  background-image: url(images/newspaper.avif);
+  background-size: cover;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 20px;
   padding: 20px;
-  border: 1px solid black;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 5rem;
+  color: purple;
+}
+
+p {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#herobox {
+  background-color: rgba(144, 144, 144, 0.5);
+  border: 3px solid gray;
+  grid-column: 1 / span 5;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#herobox h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
 }
 
 #box1 {
   background-color: lightblue;
   border: 3px solid blue;
+  grid-column: 1 / 4;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#box2 {
+  background-color: lightgreen;
+  border: 3px solid green;
+  grid-column: 4 / 6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#box2 p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#box3 {
+  background-color: lightcoral;
+  border: 3px solid red;
+  grid-column: 2 / 6;
+  padding: 20px;
+}
+
+#box4 {
+  background-color: lightcoral;
+  border: 3px solid red;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 2;
+  padding: 20px;
+}
+#box5 {
+  background-color: lightcoral;
+  border: 3px solid red;
+  grid-column: 2 / span 4;
+  padding: 20px;
+}
+#box6 {
+  background-color: lightcoral;
+  border: 3px solid red;
+  grid-column: 1 / span 5;
+  padding: 20px;
+}
+#box7 {
+  background-color: lightcoral;
+  border: 3px solid red;
+  grid-column: 1 / 6;
+  padding: 20px;
 }
