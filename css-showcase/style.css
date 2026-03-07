@@ -37,7 +37,7 @@ p {
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
-  color: #5a73bf;
+  color: #969eb9;
 }
 
 li {
@@ -176,6 +176,14 @@ h3 {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 
+#gallery h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
+}
+
 #img1 {
   background-image: url(images/squareimage.jpg);
   background-size: cover;
@@ -185,7 +193,7 @@ h3 {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #img2 {
-  background-image: url(images/squareimage.jpg);
+  background-image: url(images/pngtree-landscape-jpg-wallpapers-free-download-image_2573540.jpg);
   background-size: cover;
   min-height: 275px;
   width: 100%;
@@ -193,7 +201,7 @@ h3 {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #img3 {
-  background-image: url(images/squareimage.jpg);
+  background-image: url(images/beauty_of_nature_17_211513.jpg);
   background-size: cover;
   min-height: 275px;
   width: 100%;
@@ -202,28 +210,28 @@ h3 {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #img4 {
-  background-image: url(images/squareimage.jpg);
+  background-image: url(images/images\ \(2\).jpg);
   background-size: cover;
   min-height: 275px;
   width: 100%;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #img5 {
-  background-image: url(images/squareimage.jpg);
+  background-image: url(images/images\ \(3\).jpg);
   background-size: cover;
   min-height: 275px;
   width: 100%;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #img6 {
-  background-image: url(images/squareimage.jpg);
+  background-image: url(images/images\ \(4\).jpg);
   background-size: cover;
   min-height: 275px;
   width: 100%;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
 }
 #img7 {
-  background-image: url(images/squareimage.jpg);
+  background-image: url(images/pexels-pixabay-147411.jpg);
   background-size: cover;
   min-height: 275px;
   width: 100%;
