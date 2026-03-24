@@ -40,6 +40,16 @@ p {
    ============================================ */
 
 body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+  height: 100vh;
   /* TODO: Set display to grid */
 
   /* TODO: Define grid-template-columns for mobile (single column) */
@@ -55,22 +65,27 @@ body {
 
 header {
   /* TODO: grid-area */
+  grid-area: header;
 }
 
 nav {
   /* TODO: grid-area */
+  grid-area: nav;
 }
 
 main {
   /* TODO: grid-area */
+  grid-area: main;
 }
 
 aside {
   /* TODO: grid-area */
+  grid-area: aside;
 }
 
 footer {
   /* TODO: grid-area */
+  grid-area: footer;
 }
 
 /* ============================================
@@ -183,6 +198,7 @@ button:hover {
 
   footer {
     grid-column: 1 / 4; /* Span all columns */
+    grid-row: 3 / 4; /* Place in the last row */
   }
 
   nav {
