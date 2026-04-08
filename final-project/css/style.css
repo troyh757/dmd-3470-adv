@@ -245,3 +245,42 @@ textarea {
   }
 }
 
+header {
+  background-color: #7089f7;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#nav-items ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.section1 {
+  background-image: linear-gradient(
+    230deg,
+    rgb(112, 137, 247) 0%,
+    rgb(189, 50, 211) 100%
+  );
+  background-color: transparent;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero-phone-image {
+  width: 100%;
+  height: auto;
+}
