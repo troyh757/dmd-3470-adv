@@ -280,10 +280,10 @@ p {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600 !important;
   font-style: normal;
   color: white;
-  font-size: 36px;
+  font-size: 36px !important;
   line-height: 1.25em;
 }
 
@@ -305,4 +305,114 @@ h1 {
   display: flex;
   gap: 10px;
   width: 100%;
+}
+
+.section2 h1 {
+  color: #102465;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.section2 p {
+  color: #656565;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section2 h4 {
+  color: #102465;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section2 h1 {
+  color: #102465;
+  font-weight: 700 !important;
+  font-size: 42px !important;
+}
+
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  gap: 40px;
+  margin: 0 20px 0 20px;
+  position: relative;
+}
+
+.features-card img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.section3 h1 {
+  color: #102465 !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+}
+
+.section3 h4 {
+  color: #102465 !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+}
+
+.section3 p {
+  color: #6c8493 !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.section3 h1 {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.img-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 2px #bd32d3;
+}
+
+.how-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.how-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .feature-section {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .how-cards {
+  }
 }
