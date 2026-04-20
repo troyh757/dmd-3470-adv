@@ -245,6 +245,14 @@ textarea {
   }
 }
 
+body {
+  background-image: linear-gradient(
+    230deg,
+    rgb(112, 137, 247) 0%,
+    rgb(189, 50, 211) 100%
+  );
+}
+
 .navbar-nav .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -256,14 +264,9 @@ a {
 }
 
 .section1 {
-  background-image: linear-gradient(
-    230deg,
-    rgb(112, 137, 247) 0%,
-    rgb(189, 50, 211) 100%
-  );
   background-color: transparent;
   text-align: center;
-  padding: 40px 20px 20px 20px;
+  padding: 60px 20px 60px 20px;
 }
 
 .hero-phone-image {
@@ -305,6 +308,10 @@ h1 {
   display: flex;
   gap: 10px;
   width: 100%;
+}
+
+.section2 {
+  background-color: white;
 }
 
 .section2 h1 {
@@ -358,6 +365,10 @@ h1 {
   left: 30px;
 }
 
+.section3 {
+  background-color: white;
+}
+
 .section3 h1 {
   color: #102465 !important;
   font-weight: 700 !important;
@@ -407,12 +418,55 @@ h1 {
   padding: 20px;
 }
 
+.how-buttons {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
+  nav {
+    background-color: transparent !important;
+  }
+
+  .navbar-nav {
+    gap: 40px;
+  }
+
+  .section1-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .feature-section {
     flex-direction: row;
     gap: 10px;
   }
 
-  .how-cards {
+  .sec1text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .img-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .img-circle img {
+    width: 60%;
+  }
+  .how-card img {
+    width: 100%;
+  }
+
+  .how-buttons {
+    display: flex;
+  }
+
+  .buttons {
+    justify-content: flex-start !important;
   }
 }
