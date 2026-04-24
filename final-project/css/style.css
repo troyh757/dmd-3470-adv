@@ -687,6 +687,8 @@ footer {
   text-align: center;
   gap: 50px;
   padding: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #footer-buttons {
@@ -745,16 +747,36 @@ footer h1 {
     align-items: flex-start !important;
   }
 
+  .feature-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 70% !important;
+  }
+
   .img-circle {
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
   }
 
   .img-circle img {
-    width: 60%;
+    width: 100%;
   }
   .how-card img {
     width: 60%;
+  }
+
+  .how-card {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .how-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .how-buttons {
