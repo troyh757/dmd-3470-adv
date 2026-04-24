@@ -480,6 +480,11 @@ h1 {
   align-items: center;
 }
 
+.section4-container h1 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+
 .section4 p {
   color: #6c8493 !important;
   font-weight: 400 !important;
@@ -568,5 +573,13 @@ h1 {
 
   .sec4-text {
     align-items: flex-start !important;
+  }
+
+  .how-cards h1 {
+    font-size: 42px !important;
+  }
+
+  .section4-container h1 {
+    font-size: 42px !important;
   }
 }
