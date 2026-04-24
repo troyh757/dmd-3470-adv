@@ -328,6 +328,7 @@ p {
 
 .section2 {
   background-color: white;
+  margin: 150px 0px 150px 0px;
 }
 
 .section2 h1 {
@@ -499,6 +500,58 @@ h1 {
   align-items: center !important;
 }
 
+.section5 h1 {
+  color: #102465 !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+}
+
+.section5 p {
+  color: #6c8493 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.sec5-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.section6 {
+  min-height: 380px;
+  background-image: url("../img/watch-tutorial-img.jpg");
+  background-color: rgba(232, 135, 185, 0.5); /* Tint color */
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+}
+
+.sec6-text h2 {
+  font-family: poppins, sans-serif;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 42px !important;
+}
+
+.sec6-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.play-button {
+  width: 80px;
+  height: 80px;
+  background-color: #d9378b;
+  border-radius: 50px;
+  z-index: 1;
+}
+
 @media (min-width: 768px) {
   nav {
     background-color: transparent !important;
@@ -581,5 +634,25 @@ h1 {
 
   .section4-container h1 {
     font-size: 42px !important;
+  }
+
+  .sec5-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .sec5-text h1 {
+    font-size: 42px !important;
+    text-align: left !important;
+  }
+
+  .sec5-text p {
+    text-align: left !important;
+    font-size: 16px !important;
+  }
+
+  .section6 {
+    min-height: 50vh;
   }
 }
