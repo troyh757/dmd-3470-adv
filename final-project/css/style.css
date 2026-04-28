@@ -308,6 +308,12 @@ p {
   font-size: 36px;
 }
 
+.btn-custom-white:hover {
+  background-color: transparent !important;
+  color: white !important;
+  border: solid 1px white;
+}
+
 .btn-custom-pink {
   background-color: #bd32d3 !important;
   color: white !important;
@@ -319,6 +325,11 @@ p {
   font-style: normal;
   color: white;
   font-size: 36px;
+}
+
+.btn-custom-pink:hover {
+  background-color: rgb(122, 147, 230) !important;
+  border: solid 1px rgb(122, 147, 230);
 }
 
 .btn-custom-whitepink {
@@ -333,6 +344,12 @@ p {
   font-style: normal;
   color: #bd32d3;
   font-size: 36px;
+}
+
+.btn-custom-whitepink:hover {
+  background-color: #bd32d3 !important;
+  color: white !important;
+  border: solid 2px #bd32d3 !important;
 }
 
 .buttons {
