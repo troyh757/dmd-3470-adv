@@ -543,6 +543,9 @@ h1 {
 }
 
 .section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 380px;
   background-image: url("../img/watch-tutorial-img.jpg");
   background-color: rgba(232, 135, 185, 0.5); /* Tint color */
