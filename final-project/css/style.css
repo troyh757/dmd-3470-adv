@@ -478,6 +478,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  height: 400px;
+}
+
+.how-phone-image-top {
+  position: absolute;
+  width: 50%;
+  height: auto;
 }
 
 .sec1buttons {
@@ -493,6 +501,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 800px;
 }
 
 .section4-container h1 {
@@ -710,7 +719,22 @@ footer h1 {
   font-size: 60px !important;
 }
 
+.easy-manage-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 400px;
+  margin-top: 20px;
+}
+
 @media (min-width: 768px) {
+  .easy-manage-image-container {
+    height: auto;
+  }
+  .how-images {
+    height: auto;
+  }
   nav {
     background-color: transparent !important;
     padding-bottom: 40px !important;
