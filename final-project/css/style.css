@@ -484,8 +484,11 @@ h1 {
 
 .how-phone-image-top {
   position: absolute;
-  width: 50%;
+  width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sec1buttons {

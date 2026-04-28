@@ -131,7 +131,6 @@
             class="hero-bg-shape"
           />
         </picture>
-        s
       </section>
 
       <section class="section2">
@@ -253,11 +252,19 @@
                 alt="Phone Image"
                 class="how-phone-image"
               />
-              <img
-                src="img/app-work-img-2.png"
-                alt="Phone Image"
-                class="how-phone-image-top"
-              />
+              <picture class="how-phone-image-top">
+                <source
+                  srcset="img/app-work-img-2.png"
+                  alt="Phone imag"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="img/app-work-img-2-149x300.png"
+                  alt="Phone image"
+                  media="(max-width: 576px)"
+                />
+                <img src="img/app-work-img-2.png" alt="Background Shape" />
+              </picture>
             </div>
           </div>
         </div>
@@ -284,7 +291,19 @@
               <button class="btn btn-custom-pink">Read More</button>
             </div>
             <div class="col-sm-12 col-md-6 easy-manage-image-container">
-              <img src="img/app-work-img-2.png" class="how-phone-image-top" />
+              <picture class="how-phone-image-top">
+                <source
+                  srcset="img/app-work-img-2.png"
+                  alt="Phone imag"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="img/app-work-img-2-149x300.png"
+                  alt="Phone image"
+                  media="(max-width: 576px)"
+                />
+                <img src="img/app-work-img-2.png" alt="Background Shape" />
+              </picture>
               <img
                 src="img/app-work-bg.png"
                 alt="Phone Image"
@@ -312,10 +331,22 @@
               <button class="btn btn-custom-pink">Read More</button>
             </div>
             <div class="col-sm-12 col-md-6 responsive-image-container">
-              <img
-                src="img/responsive-design-img-2.png"
-                class="how-phone-image-top"
-              />
+              <picture class="how-phone-image-top">
+                <source
+                  srcset="img/responsive-design-img-2.png"
+                  alt="Phone imag"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="img/responsive-design-img-2-149x300.png"
+                  alt="Phone image"
+                  media="(max-width: 576px)"
+                />
+                <img
+                  src="img/responsive-design-img-2.png"
+                  alt="Background Shape"
+                />
+              </picture>
               <img
                 src="img/app-work-bg.png"
                 alt="Phone Image"
